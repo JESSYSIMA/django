@@ -3,3 +3,5 @@ psycopg2-binary
 gunicorn
 django-prometheus
 prometheus-client
+djangorestframework
+django-cors-headers
