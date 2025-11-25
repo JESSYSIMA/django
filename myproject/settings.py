@@ -59,11 +59,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get("POSTGRES_DB", "db_tp8"),
-        'USER': os.environ.get("POSTGRES_USER", "db_tp8_user"),
-        'PASSWORD': os.environ.get("POSTGRES_PASSWORD", "lly7oCvh5103JrHm0Q6gwe2B3QGqNSIB"),
-        'HOST': os.environ.get("POSTGRES_HOST", "localhost"),
-        'PORT': os.environ.get("POSTGRES_PORT", "5432"),
+        'NAME': os.environ.get("db_tp8"),
+        'USER': os.environ.get("db_tp8_user"),
+        'PASSWORD': os.environ.get("lly7oCvh5103JrHm0Q6gwe2B3QGqNSIB"),
+        'HOST': os.environ.get("dpg-d4eqndk9c44c73chtp20-a"),
+        'PORT': os.environ.get( "5432"),
     }
 }
 
